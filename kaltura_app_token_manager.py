@@ -211,6 +211,7 @@ def initialize_client(config):
     kaltura_config.serviceUrl = config['KALTURA_SERVICE_URL']
     # Create the Kaltura client with the configuration
     client = KalturaClient(kaltura_config)
+    # this in case WAF is configured to prevent access from non-browser agents
     client.requestHeaders = {
         'sec-ch-ua': '"Chromium";v="118", "Google Chrome";v="118", "Not=A?Brand";v="99"',
         'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36'
