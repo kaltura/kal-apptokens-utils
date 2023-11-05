@@ -87,7 +87,7 @@ To extend the functionality:
 
 ## License
 
-This script is released under the MIT License.  
+This script is released under the [MIT License](https://opensource.org/license/mit/).  
 
 ## Support
 
