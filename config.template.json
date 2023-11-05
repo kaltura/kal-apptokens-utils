@@ -1,0 +1,8 @@
+{
+    "PARTNER_ID": <your_partner_id>,
+    "ADMIN_SECRET": "<your_admin_secret>",
+    "SCRIPT_USER_ID": "kapptoken-mgr",
+    "ADMIN_SESSION_EXPIRY": 1800,
+    "KALTURA_SERVICE_URL": "https://cdnapi-ev.kaltura.com",
+    "DEFAULT_ADMIN_PRIVILEGES": "all:*,disableentitlement"
+  }
